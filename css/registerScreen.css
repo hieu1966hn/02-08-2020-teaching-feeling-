@@ -81,11 +81,21 @@
     justify-content: center;
 }
 .sign-in-container{
-    color: #ffffff;
+    color: #0a0202;
 }
 #facebook-icon{
     position: absolute;
     top: 7px;
     left: 110px;
     color: #ffffff;
+}
+#content-explain{
+    padding: 0px 100px;
+}
+#redirect-to-sign-in{
+    cursor: pointer;
+    color: rgb(38, 153, 161);
+}
+#redirect-to-sign-in:hover{
+    color: red;
 }

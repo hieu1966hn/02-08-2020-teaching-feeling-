@@ -28,7 +28,7 @@ components.registerScreen = `
             <input type="password" name="password" placeholder="Please input your first name">
             <div class="error" id="password-error"></div>
         </div>
-        <span>
+        <span id = "content-explain">
             By clicking join now, you agree to LinkedLn's User Agreemen, <br>
             Privacy policy, and Cookie Policy.
         </span>
@@ -42,7 +42,7 @@ components.registerScreen = `
         </div>
         <span class="sign-in-container">
             Already on Linkedln?
-            <div id="redirect-to-sign-in" >Sign in</div>
+            <div id="redirect-to-sign-in" clas = "cursor" >Sign in</div>
         </span>
 
     </form>
