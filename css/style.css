@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.input-wrapper{
+    padding: 0px 100px;
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+}
+.input-wrapper input{
+    border: 1px solid #dbdbdb;
+    padding: 10px 15px;
+    /* border-radius: 5px; */
+    width: 100%;
+    outline: none;
+    
+}
+
+.cursor{
+    cursor: pointer;
+}
+.btn-join .btn{
+    cursor: pointer;
+}
+.btn-login-with-facebook .btn{
+    cursor: pointer;
+}
+/* #line-to-line{
+    display: flex;
+    flex-direction: row;
+} */
+.error{
+    text-align: left;
+    color: red;
+}
+.btn:active{
+    transform: scale(1.1);
+}

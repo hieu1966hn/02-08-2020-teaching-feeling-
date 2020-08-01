@@ -1,0 +1,91 @@
+.register-container{
+    height: 100vh;
+    background-color: #006978;
+    /* position: relative; */
+}
+.register-container .aside-mid{
+    text-align: center;
+}
+
+.register-container .aside-mid .header{
+    /* height: 40px; */
+    padding-top: 10px;
+    /* text-align: center;  */
+    color: #ffffff;
+    margin-bottom: 20px;
+    
+}
+.register-logo{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.register-content{
+    font-size: 30px;
+}
+.register-container .aside-mid #register-form{
+    background-color: #ffffff;
+    width: 50%;
+    margin: auto;
+    height: 70vh;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+ .footer{
+    color: #ffffff;
+    /* position: relative; */
+    /* width: 80%; */
+    margin-top: 10px;
+}
+.element-content{
+    text-align: left;
+    /* padding-left: 7  0px; */
+    padding: 5px 0px; 
+}
+
+.register-container .aside-mid #register-form .input-wrapper{
+    padding-top: 15px;
+}
+#sign-in{
+    color: rgb(27, 125, 163);
+}
+#sign-in:hover{
+    color: red;
+}
+#register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#line-to-line{
+    text-decoration: dashed;
+}
+#register-form, .btn-join, .btn-login-with-facebook{
+    padding: 0px 100px;
+    position: relative;
+}
+.btn{
+    width: 100%;
+    background-color:   #56c7d6;
+    color: #ffffff;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#sign-in-facebook{
+    background-color: #002171;
+}
+
+.register-container .aside-mid #register-form .sign-in-container{
+    display: flex;
+    /* padding-left: 100px; */
+    justify-content: center;
+}
+.sign-in-container{
+    color: #ffffff;
+}
+#facebook-icon{
+    position: absolute;
+    top: 7px;
+    left: 110px;
+    color: #ffffff;
+}
